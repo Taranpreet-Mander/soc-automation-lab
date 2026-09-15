@@ -1,0 +1,20 @@
+# dont commit secrets / api keys!!
+*.env
+.env
+secrets.*
+*.key
+apikeys.txt
+
+# exports / logs
+*.log
+exports/
+*.csv
+
+# os junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# editors
+.vscode/
+.idea/
